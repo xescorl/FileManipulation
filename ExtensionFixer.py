@@ -12,5 +12,5 @@ def change_extension(folder_path, old_ext, new_ext):
             print(f'Adding extension to {filename} to make it {new_filename}')
             os.rename(os.path.join(folder_path, filename), os.path.join(folder_path, new_filename))
 
-folder_path = r'C:\Users\ftur.DOMINIOEXPO\Documents\SW\pythonOfficeWordManipulation'
+folder_path = r'##'
 change_extension(folder_path, '.txt', '.py')
